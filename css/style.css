@@ -24,9 +24,15 @@ body {
 .col  {
     float: left;
 }
+.witdh-70 {
+    width: 70%;
+}
+
+.witdh-80 {
+    width: 80%;
+}
 
 .container {
-    width: 80%;
     margin: auto;
 }
 
@@ -80,10 +86,59 @@ li {
     background-color: #b4d0e7;
 }
 
+.banner h1 {
+    font-size: 96px;
+    text-align: left;
+}
+
+.text-banner {
+    width: 30%;
+}
+
+.img-banner {
+    width: 70%;
+}
+
+/* SECTION PLANS */
 .plans {
     height: 1900px;
     background-color: lightpink;
 }
+
+/* HEADER PLANS */
+
+.billing {
+
+}
+
+.billed-monthly {
+    display: inline-block;
+}
+
+.billed-annually {
+    display: inline-block;
+}
+
+.circle {
+
+}
+
+.bill-text {
+
+}
+
+/* PLANS COLUMN */
+
+.single-plan {
+    width: 30%;
+}
+
+
+
+
+
+
+
 
 .enterprise {
     height: 400px;
