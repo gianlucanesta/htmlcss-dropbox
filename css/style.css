@@ -24,6 +24,29 @@ body {
 .col  {
     float: left;
 }
+/* ALIGN */
+.aln-sx {
+    text-align: left;
+}
+
+.aln-dx {
+    text-align: right;
+}
+
+.aln-cent {
+    text-align: center;
+}
+
+/* COLORS */
+.grey-text {
+
+}
+
+/* WITDH */
+.witdh-30 {
+    width: 30%;
+}
+
 .witdh-70 {
     width: 70%;
 }
@@ -32,19 +55,30 @@ body {
     width: 80%;
 }
 
+/* HEIGHT */
+.height-plan{
+    height: 700px;
+}
+
 .container {
     margin: auto;
 }
 
+
+
+
+
+
 /* MENU NAV */
+
 header{
    
 }
 
 nav {
-    height: 200px;
-    line-height: 200px;
-    font-size: 38px;
+    height: 100px;
+    line-height: 100px;
+    font-size: 18px;
     color: black;
 }
 
@@ -55,18 +89,20 @@ nav {
     vertical-align: middle;
     padding: 20px;
 }
-
 img  {
     width: 100%;
 }
 
-.sx, .dx {
-    width: 35%;
+.sx {
+    margin-left: 25px;
+    width: 30%;
 }
 
 .dx {
     float: right;
     text-align: right;
+    margin-right: 20px;
+    width: 40%;
 }
 
 li {
@@ -82,12 +118,14 @@ li {
 
 /* BANNER */
 .banner {
-    height: 2000px;
+    height: 700px;
     background-color: #b4d0e7;
 }
 
-.banner h1 {
-    font-size: 96px;
+.banner-content
+
+.banner-title h1{
+    font-size: 150px;
     text-align: left;
 }
 
@@ -101,7 +139,7 @@ li {
 
 /* SECTION PLANS */
 .plans {
-    height: 1900px;
+    height: 1500px;
     background-color: lightpink;
 }
 
@@ -130,8 +168,38 @@ li {
 /* PLANS COLUMN */
 
 .single-plan {
-    width: 30%;
+    margin-right: 5%;
+    
 }
+
+.team-plan {
+
+}
+
+.advanced-team-plan {
+
+}
+
+.name-plan {
+
+}
+
+.plan-features {
+
+}
+
+.title-plan {
+
+}
+
+.price-plan {
+
+}
+
+.max-user {
+
+}
+
 
 
 
@@ -141,38 +209,38 @@ li {
 
 
 .enterprise {
-    height: 400px;
+    height: 200px;
     background-color: lightsalmon;
 }
 
 .meet-partners {
-    height: 800px;
+    height: 400px;
     background-color: lightsteelblue;
 }
 
 .more-operations {
-    height: 1700px;
+    height: 850px;
     background-color: lightyellow;
 }
 
 .number-teams {
-    height: 350px;
+    height: 175px;
 }
 
 .logo-users {
-    height: 650px;
+    height: 375px;
     background-color: lightgreen;
 }
 
 .bring-dropbox {
-    height: 450px;
+    height: 225px;
     background-color: lightskyblue;
 }
 
 .faq {
-    height: 950px;
+    height: 475px;
 }
 footer {
-    height: 700px;
+    height: 350px;
     background-color: black;
 }
