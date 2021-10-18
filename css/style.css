@@ -1,0 +1,123 @@
+ /* RESET */
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    border: solid 1px black;
+}
+
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+img {
+    
+}
+
+body {
+    font-family: 'Open Sans',sans-serif;
+    font-weight: 600;
+}
+
+.col  {
+    float: left;
+}
+
+.container {
+    width: 80%;
+    margin: auto;
+}
+
+/* MENU NAV */
+header{
+   
+}
+
+nav {
+    height: 200px;
+    line-height: 200px;
+    font-size: 38px;
+    color: black;
+}
+
+.logo {
+    width: 10%;
+}
+.logo img {
+    vertical-align: middle;
+    padding: 20px;
+}
+
+img  {
+    width: 100%;
+}
+
+.sx, .dx {
+    width: 35%;
+}
+
+.dx {
+    float: right;
+    text-align: right;
+}
+
+li {
+    list-style-type: none;  
+    display: inline-block;
+    padding: 0 30px;
+}
+
+.menu a {
+    text-decoration: none;
+}
+
+
+/* BANNER */
+.banner {
+    height: 2000px;
+    background-color: #b4d0e7;
+}
+
+.plans {
+    height: 1900px;
+    background-color: lightpink;
+}
+
+.enterprise {
+    height: 400px;
+    background-color: lightsalmon;
+}
+
+.meet-partners {
+    height: 800px;
+    background-color: lightsteelblue;
+}
+
+.more-operations {
+    height: 1700px;
+    background-color: lightyellow;
+}
+
+.number-teams {
+    height: 350px;
+}
+
+.logo-users {
+    height: 650px;
+    background-color: lightgreen;
+}
+
+.bring-dropbox {
+    height: 450px;
+    background-color: lightskyblue;
+}
+
+.faq {
+    height: 950px;
+}
+footer {
+    height: 700px;
+    background-color: black;
+}
