@@ -12,9 +12,6 @@
     clear: both;
 }
 
-img {
-    
-}
 
 body {
     font-family: 'Open Sans',sans-serif;
@@ -37,26 +34,40 @@ body {
     text-align: center;
 }
 
+/* BORDERS */
+
+
+
+
+/* MARGINS */
+
+
+
+
 /* COLORS */
 .grey-text {
 
 }
 
 /* WITDH */
-.witdh-30 {
+.w-auto {
+    width: auto;
+}
+
+.w-30 {
     width: 30%;
 }
 
-.witdh-70 {
+.w-70 {
     width: 70%;
 }
 
-.witdh-80 {
+.w-80 {
     width: 80%;
 }
 
 /* HEIGHT */
-.height-plan{
+.h-plan{
     height: 700px;
 }
 
@@ -85,6 +96,7 @@ nav {
 .logo {
     width: 10%;
 }
+
 .logo img {
     vertical-align: middle;
     padding: 20px;
@@ -95,14 +107,13 @@ img  {
 
 .sx {
     margin-left: 25px;
-    width: 30%;
+    
 }
 
 .dx {
     float: right;
     text-align: right;
     margin-right: 20px;
-    width: 40%;
 }
 
 li {
@@ -122,10 +133,12 @@ li {
     background-color: #b4d0e7;
 }
 
-.banner-content
+.banner-content {
+
+}
 
 .banner-title h1{
-    font-size: 150px;
+    font-size: 50px;
     text-align: left;
 }
 
@@ -184,8 +197,8 @@ li {
 
 }
 
-.plan-features {
-
+.plan-features-list {
+    
 }
 
 .title-plan {
@@ -200,9 +213,33 @@ li {
 
 }
 
+.space {
 
+}
 
+.plan-advantages-list {
 
+}
+
+.transfer {
+
+}
+
+.directory {
+
+}
+
+.cleaning {
+
+}
+
+.protection {
+
+}
+
+.assistance {
+
+}
 
 
 
