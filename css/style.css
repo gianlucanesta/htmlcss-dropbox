@@ -21,10 +21,12 @@ body {
     float: left;
 }
 
+/* ############################### */
+/* DISPLAY */
 
-
-
-
+.display-inline-block {
+    display: inline-block;
+}
 
 /* ############################### */
 
@@ -71,8 +73,6 @@ body {
     border-bottom: none;
     color: white;
 }
-
-
 
 /* ############################### */
 /* MARGINS */
@@ -139,9 +139,14 @@ body {
     padding-right: 30px;
 }
 
-.pad-top-30px {
-    padding-top: 30px;
+.pad-top-20px {
+    padding-top: 20px;
 }
+
+.pad-top-40px {
+    padding-top: 40px;
+}
+
 .pad-top-80px {
     padding-top: 80px;
 }
@@ -152,9 +157,6 @@ body {
 
 /* ############################### */
 /* COLORS */
-.txt-grey {
-
-}
 
 .txt-white {
     color: white;
@@ -196,6 +198,7 @@ body {
 }
 
 /* ############################### */
+
 /* FONT WEIGHT */
 
 .font-weight-400 {
@@ -251,7 +254,7 @@ body {
 
 
 
-
+/* CONTAINER */
 .container {
     margin: auto;
 }
@@ -259,7 +262,6 @@ body {
 
 /* ############################### */
 /* MENU NAV */
-
 
 nav {
     height: 90px;
@@ -270,7 +272,6 @@ nav {
     z-index: 1
 }
 
-
 .logo img {
     width: auto;
     vertical-align: middle;
@@ -279,7 +280,6 @@ nav {
 img  {
     width: 100%;
 }
-
 
 .dx {
     float: right;
@@ -310,11 +310,9 @@ a {
 .button-large {
     padding-top: 8px;
     padding-bottom: 8px;
-    padding-left: 20%;
-    padding-right: 20%;
-    
+    padding-left: 22%;
+    padding-right: 22%;
 }
-
 
 li a:hover {
     border-bottom: 2px solid black;
@@ -364,6 +362,8 @@ li a:hover {
     
 }
 
+
+/* ############################### */
 /* PLANS COLUMN */
 
 .plan {
@@ -372,8 +372,6 @@ li a:hover {
 
 .center {
     margin: 0% 5% 0% 5%;
-
-
 }
 
 .team-plan {
@@ -393,61 +391,91 @@ li a:hover {
 }
 
 .title-plan {
-    font-size: 24px;
+    font-size: 38px;
+    margin-top: 40px;
+    margin-bottom: 30px;
 }
 
 .price-plan {
-
+    font-weight: 800;
 }
+
 .grey-text {
     color: gray;
 }
+
 .max-user {
+    margin-top: 40px;
+}
+
+.li-style {
+    padding-left: 20px;
+}
+
+.icon {
+    margin-left: -20px;
+    line-height: 5px;
+}
+    
+.list-inside-plan{
+    font-weight: 200;
 
 }
 
-.space {
-
+.productivity {
+    margin-bottom: 50px;
 }
 
+.buy-now {
+    margin-top: 40px;
+    
+}
+.text-button-buy-now {
+    display: inline-block;
+    height: 70px;
+   
+}
+.buy-now-button {
+    color: #3c84ff;
+    text-decoration: underline;
+}
+
+.buy-now-button:hover {
+    color: #0061ff;
+} 
 
 .plan-features-list, .plan-advantages-list  {
     margin: 20px;
     line-height: 28px;
 }
 
-.plan-features-list div, .plan-advantages-list div {
+.plan-features-list li, .plan-advantages-list li {
     margin-bottom: 20px;
+}
+
+.plan-advantages-list {
+    margin-bottom: 100px;
 }
 
 .check i {
     color: #3c84ff;
 }
-.transfer {
 
+.li-check{
+    padding-left: 20px;
 }
 
-.directory {
-
+.check{
+    margin-left: -20px;
+    line-height: 5px;
 }
-
-.cleaning {
-
-}
-
-.protection {
-
-}
-
-.assistance {
-
-}
-
 .title-plan-points {
     font-size: 18px;
+    margin-bottom: 20px;
 }
-
-
+.text-plan-point {
+    font-weight: 200;
+}
 
 /* ENTERPRISE PLAN */
 .enterprise-plan {
@@ -457,9 +485,8 @@ li a:hover {
 }
 
 
-
 .meet-partners {
-    background-color: lightsteelblue;
+    
 }
 
 .more-operations {
@@ -578,9 +605,6 @@ li a:hover {
     border-top: 1px solid lightgray;
 
 }
-
-
-
 
 footer {
     height: 350px;
