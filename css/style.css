@@ -17,9 +17,16 @@ body {
     font-weight: 600;
 }
 
-.col  {
+.col {
     float: left;
 }
+
+
+
+
+
+
+/* ############################### */
 
 /* POSITION */
 
@@ -29,12 +36,11 @@ body {
 .pos-rel {
     position: relative;
 }
-
 .pos-fix {
     position: fixed;
 }
 
-
+/* ############################### */
 /* ALIGN */
 .aln-sx {
     text-align: left;
@@ -48,13 +54,14 @@ body {
     text-align: center;
 }
 
+/* ############################### */
 /* BORDERS */
 
 .gray-border {
-    border: 1px solid gray;
+    border: 1px solid lightgray;
 }
 .gray-border-bottom {
-    border-bottom: 1px solid gray;
+    border-bottom: 1px solid lightgray;
 }
 .black-border {
     border: 1px solid black;
@@ -67,7 +74,7 @@ body {
 
 
 
-
+/* ############################### */
 /* MARGINS */
 .marg-auto {
     margin: auto;
@@ -118,6 +125,7 @@ body {
     margin-bottom: 80px; 
  }
 
+ /* ############################### */
 /* PADDING */
 .pad-left-15px {
     padding-left: 15px;
@@ -131,6 +139,9 @@ body {
     padding-right: 30px;
 }
 
+.pad-top-30px {
+    padding-top: 30px;
+}
 .pad-top-80px {
     padding-top: 80px;
 }
@@ -139,7 +150,7 @@ body {
     padding-top: 160px;
 }
 
-
+/* ############################### */
 /* COLORS */
 .txt-grey {
 
@@ -147,6 +158,9 @@ body {
 
 .txt-white {
     color: white;
+}
+.txt-skyblue {
+    color: #3c84ff;
 }
 
 .bg-white {
@@ -156,13 +170,14 @@ body {
     background-color: #b4d0e7;
 }
 .bg-skyblue {
-    background-color: #3c84ff
+    background-color: #3c84ff;
 }
 
 .bg-skyblue:hover {
     background-color: #0061ff;
 } 
 
+/* ############################### */
 /* FONT SIZE */
 .font-size-14px {
     font-size: 14px;
@@ -180,11 +195,14 @@ body {
     font-size: 36px;
 }
 
+/* ############################### */
 /* FONT WEIGHT */
 
 .font-weight-400 {
     font-weight: 400;
 }
+
+/* ############################### */
 /* WITDH */
 .w-auto {
     width: auto;
@@ -214,13 +232,11 @@ body {
     width: 100%;
 }
 
-.w-calc {
-    width: calc(100% / 3 - 40px);
-}
 .w-footer {
     width: calc(100% / 5);
 }
 
+/* ############################### */
 /* HEIGHT */
 .h-auto {
     height: auto;
@@ -240,6 +256,8 @@ body {
     margin: auto;
 }
 
+
+/* ############################### */
 /* MENU NAV */
 
 
@@ -289,18 +307,24 @@ a {
     padding: 8px 16px;
 }
 
+.button-large {
+    padding-top: 8px;
+    padding-bottom: 8px;
+    padding-left: 20%;
+    padding-right: 20%;
+    
+}
+
+
 li a:hover {
     border-bottom: 2px solid black;
     padding-bottom: 32px;
     cursor: pointer;
 }
 
-
-
 /* BANNER */
 .banner {
     height: 500px;
-    
 }
 
 .text-banner {
@@ -319,7 +343,9 @@ li a:hover {
 }
 
 /* HEADER PLANS */
-
+.header-plans {
+    margin-bottom: 50px;
+}
 
 .radio-button {
     width: 18px;
@@ -340,9 +366,14 @@ li a:hover {
 
 /* PLANS COLUMN */
 
-.single-plan {
-    /* margin-right: 5%; */
-    
+.plan {
+ 
+}
+
+.center {
+    margin: 0% 5% 0% 5%;
+
+
 }
 
 .team-plan {
@@ -354,20 +385,23 @@ li a:hover {
 }
 
 .name-plan {
-
+    line-height:40px;
+    vertical-align: middle;
 }
 
 .plan-features-list {
 }
 
 .title-plan {
-
+    font-size: 24px;
 }
 
 .price-plan {
 
 }
-
+.grey-text {
+    color: gray;
+}
 .max-user {
 
 }
@@ -376,10 +410,19 @@ li a:hover {
 
 }
 
-.plan-advantages-list {
 
+.plan-features-list, .plan-advantages-list  {
+    margin: 20px;
+    line-height: 28px;
 }
 
+.plan-features-list div, .plan-advantages-list div {
+    margin-bottom: 20px;
+}
+
+.check i {
+    color: #3c84ff;
+}
 .transfer {
 
 }
@@ -399,10 +442,18 @@ li a:hover {
 .assistance {
 
 }
+
+.title-plan-points {
+    font-size: 18px;
+}
+
+
+
 /* ENTERPRISE PLAN */
 .enterprise-plan {
+    margin-top: 50px;
+    margin-bottom: 50px;
     height: 200px;
-    background-color: lightsalmon;
 }
 
 
@@ -412,14 +463,18 @@ li a:hover {
 }
 
 .more-operations {
-    background-color: lightyellow;
+    
+}
+
+.more-operation-title {
+    font-size: 26px;
+    margin-bottom: 10px;
 }
 
 .number-teams {
+    margin-top: 70px;
     height: 175px;
 }
-
-
 
 /* PARTNERSHIP */
 .partnership {
@@ -501,13 +556,31 @@ li a:hover {
 
 
 .bring-dropbox {
-    height: 225px;
+    
+}
 
+.bring-section {
+    line-height: 500px;
+    vertical-align: middle;
 }
 
 .faq {
-    
+    margin-bottom: 50px;
 }
+
+.faq-title {
+    margin-top: 130px;
+    margin-bottom: 30px;
+}
+
+.faq-row {
+    line-height: 80px;
+    border-top: 1px solid lightgray;
+
+}
+
+
+
 
 footer {
     height: 350px;
