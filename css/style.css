@@ -369,17 +369,20 @@ li a:hover {
 .plan {
  
 }
-
+.single-plan {
+    padding-bottom: 100px;
+}
 .center {
     margin: 0% 5% 0% 5%;
+    padding-bottom: 50px;
 }
 
 .team-plan {
-
+    
 }
 
 .advanced-team-plan {
-
+    padding-bottom: 50px;
 }
 
 .name-plan {
@@ -393,6 +396,17 @@ li a:hover {
 .title-plan {
     font-size: 38px;
     margin-top: 40px;
+    margin-bottom: 30px;
+}
+
+.enterprise-title-plan {
+    font-size: 32px;
+    margin-top: 40px;
+    margin-bottom: 20px;
+}
+
+.enterprice-price-plan {
+    font-weight: 800;
     margin-bottom: 30px;
 }
 
@@ -471,8 +485,10 @@ li a:hover {
 }
 .title-plan-points {
     font-size: 18px;
+    margin-top: 40px;
     margin-bottom: 20px;
 }
+
 .text-plan-point {
     font-weight: 200;
 }
@@ -481,12 +497,40 @@ li a:hover {
 .enterprise-plan {
     margin-top: 50px;
     margin-bottom: 50px;
-    height: 200px;
+    height: 250px;
 }
 
+.info {
+    font-weight: 400;
+}
 
 .meet-partners {
-    
+    margin-top: 120px;
+    margin-bottom: 120px;
+}
+
+.meet-partners-right{
+    margin-left: 20px;
+    margin-bottom: 40px;
+}
+
+.meet-partners-title {
+    font-size: 18px;
+    margin-left: 20px;
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.meet-partners-text {
+    font-size: 18px;
+    font-weight: normal;
+    margin-left: 20px;
+    line-height: 32px;
+    margin-bottom: 40px;
+}
+
+.meet-partners-button {
+    margin-left: 20px;
 }
 
 .more-operations {
@@ -494,8 +538,13 @@ li a:hover {
 }
 
 .more-operation-title {
-    font-size: 26px;
+    font-size: 30px;
     margin-bottom: 10px;
+}
+
+.more-operation-row {
+    margin-top: 60px;
+    margin-button:50px;
 }
 
 .number-teams {
@@ -503,34 +552,43 @@ li a:hover {
     height: 175px;
 }
 
+.number-teams-title {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.number-teams-text {
+
+}
+
 /* PARTNERSHIP */
 .partnership {
-    background-color: lightgreen;
+    margin-top: 50px;
     width: 100%;
-    height: 400px;
+    height: 600px;
 }
 
 .col.partnership-left,
 .col.partnership-right {
-    width: 400px;
-    height: 400px;
+    width: 600px;
+    height: 600px;
 }
 
 .col.partnership-center{
-    width: calc( 100% - 800px);
+    width: calc( 100% - 1200px);
     background-color: #f5f5f5;
-    height: 400px;
+    height: 600px;
 }
 
 .partnership .square{
-    width: 200px;
-    height: 200px;
+    width: 300px;
+    height: 300px;
     position: relative;
 }
 
 .designit-bg-first{
-    width: 180px;
-    height: 180px; 
+    width: 275px;
+    height: 275px; 
     position: absolute;
     top: 50%;
     left: 50%;
@@ -539,11 +597,11 @@ li a:hover {
 }
 
 .logo{
-    width: 120px;
+    width: 180px;
 }
 
 .logo-white-center{
-    width: 120px;
+    width: 180px;
     filter: invert(100%);
     position: absolute;
     top: 50%;
